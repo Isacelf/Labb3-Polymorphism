@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Geometry circle = new Circle();
+            circle.Area();
+
+            Geometry square = new Square();
+            square.Area();
+
+            Geometry rectangle = new Rectangle();
+            rectangle.Area();
+
+            Console.ReadKey();
         }
     }
 }
