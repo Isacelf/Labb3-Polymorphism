@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Labb3_Polymorphism
 {
-    internal class Geometry
+    internal class Geometry // Allmän klass
     {
-        public virtual double Area()
+        public virtual double Area() // Virutell metod som retunerar 0 och kan överskridas
         {
             return 0;
         }
